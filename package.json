@@ -1,21 +1,42 @@
 {
-  "name": "npm-package",
-  "version": "0.1.0",
-  "private": true,
+  "name": "react-devto",
+  "version": "2.1.0",
+  "description": "This is a small React Package to embed your Dev.to posts into your website.",
+  "private": false,
+  "main": "dist/Article.js",
+  "module": "dist/Article.js",
+  "license": "MIT",
+  "babel": {
+    "presets": [
+      "@babel/react"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shoaib-03/react-devto.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shoaib-03/react-devto/issues"
+  },
+  "homepage": "https://github.com/shoaib-03/react-devto#readme",
   "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-scripts": "^3.4.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "publish:npm": "set NODE_ENV=production && rm -rf dist && mkdir dist && npx babel src/components/Article.js --out-dir dist --copy-files",
     "eject": "react-scripts eject"
   },
+  "author": "Shoaib Sayyed",
+  "keywords": [
+    "react",
+    "dev.to",
+    "post",
+    "article"
+  ],
   "eslintConfig": {
     "extends": "react-app"
   },
@@ -30,5 +51,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/preset-react": "^7.9.4"
   }
 }
