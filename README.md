@@ -2,9 +2,9 @@
 
 [![npm](https://img.shields.io/npm/v/react-devto.svg)](https://www.npmjs.com/package/react-devto)
 ![npm](https://img.shields.io/npm/dw/react-devto.svg)
-![GitHub issues](https://img.shields.io/github/issues/devaman/react-devto.svg)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/devaman/react-devto.svg)
-[![HitCount](http://hits.dwyl.io/devaman/react-devto.svg)](http://hits.dwyl.io/devaman/react-devto)
+![GitHub issues](https://img.shields.io/github/issues/shoaib-03/react-devto.svg)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/shoaib-03/react-devto.svg)
+[![HitCount](http://hits.dwyl.io/shoaib-03/react-devto.svg)](http://hits.dwyl.io/shoaib-03/react-devto)
 
 A React Component that renders all yours Dev.to articles to your website.
 
