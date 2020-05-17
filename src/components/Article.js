@@ -95,7 +95,7 @@ const Article = ({ name }) => {
           return {
             id: item.id,
             url: item.url,
-            imgSrc: item.cover_image,
+            imgSrc: item.social_image,
             title: item.title,
             likes: item.positive_reactions_count,
             comments: item.comments_count,

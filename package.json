@@ -19,11 +19,6 @@
     "url": "https://github.com/shoaib-03/react-devto/issues"
   },
   "homepage": "https://github.com/shoaib-03/react-devto#readme",
-  "dependencies": {
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-scripts": "^3.4.1"
-  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -53,6 +48,9 @@
     ]
   },
   "devDependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "^3.4.1",
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.9.6",
     "@babel/preset-react": "^7.9.4"
