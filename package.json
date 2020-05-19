@@ -1,6 +1,6 @@
 {
   "name": "react-devto",
-  "version": "2.2.0",
+  "version": "2.2.2",
   "description": "This is a small react package to embed your dev.to posts into your website.",
   "private": false,
   "main": "dist/Article.js",
